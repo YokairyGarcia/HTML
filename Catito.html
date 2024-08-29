@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="iewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>CATASTICO</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./imagenes/catastico.webp" alt="catastico">
+        </div>
+        <nav>
+            <div class="titulo">
+                <h2> Catastico </h2>
+            </div>
+            <ul>
+                <a class="enlace" href="https://adopta.do/">
+                    <li class="clic">Adopta</li>
+                </a>
+                <a class="enlace" href="#direccion">
+                    <li class="clic">Dirección</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <H1> ¡Los gatos dominarán el mundo! </H1>
+    </div>
+
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagenes/Finfin 2.jpeg" class="custom-img" alt="Finfin 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/Panquei la soberana.jpg" class="custom-img" alt="Panquei">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/Waffles 2.jpg" class="custom-img" alt="Waffles 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/Atun 2.jpg" class="custom-img" alt="Atun 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/Tuna 2.jpg" class="custom-img" alt="Tuna2">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="Gatos">
+        <div class="gatitos">
+            <h2>Reina Waffles</h2>
+            <p>La Reina Waffles, conocida por su mirada de tirana pero con un buen corazón. La hora de su comida es
+                sagrada, si se tardan correrá sangre.</p>
+            <img class="gatitos2" src="./imagenes/waffles dormida.jpg" alt="Waffles">
+        </div>
+        <div class="gatitos">
+            <h2>Principe Atún</h2>
+            <p>Un poco tonto pero amado por todos en el reino, excepto por la reina Waffles a quien suele estresarle su
+                hiperactividad. Si lo dejas solito le da ansiedad</p>
+            <img class="gatitos2" src="./imagenes/Atún .jpg" alt="Atun">
+        </div>
+        <div class="gatitos">
+            <h2>Panquei la soberana</h2>
+            <p>La noble gatuna con mas poder en el reino, equilibrio entre ternura e intensidad. Se embarcó hace tiempo
+                en un viaje aventurero en busca de grandes tesoros para su reino.</p>
+            <img class="gatitos2" src="./imagenes/Panquei la soberana.jpg" alt="Panquei la soberana">
+        </div>
+    </div>
+
+    <div class="Gatos2">
+        <div class="gatitos">
+            <h2>Fin Fin el bueno</h2>
+            <p>Fundador del reino gatuno, ya no está entre nosotros pero si en nuestros corazones.</p>
+            <img class="gatitos2" src="./imagenes/Fin Fin el bueno.jpeg" alt="Fin Fin el bueno">
+        </div>
+        <div class="gatitos">
+            <h2>Tuna</h2>
+            <p>Aún no pertenece a la realeza de este reino, está en entrenamiento para ser enviada a una misión en otras
+                tierras lejanas.</p>
+            <img class="gatitos2" src="./imagenes/Tuna.jpg" alt="Tuna">
+        </div>
+    </div>
+    <div>
+        <div class="curioso">
+            <h2>Mini guía de gaternidad</h2>
+        </div>
+
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <h3>Si piensas adoptar</h3>
+                    <span class="texto" id="texto1">
+                        <p> Olvida esos pequeños prejuicios: ''Los gatos son mas independientes'', ''No necesitaré estar tan pendiente'', ''Solo 20m de atención al día son más que suficientes''.</p>
+                    
+                        <p>No hay algo más falso que todo eso, los gatos son todos pequeñas cajitas de sorpresas con sus propias personalidades y necesidades. He tenido varios gatos a lo largo de mi vida y no, ninguno ha sido igual a otro, de hecho, podría arriesgarme a decir que en ocasiones (depende de tu gatito) suelen requerir mucho más atención, cuidados y mimos que un cachorro canino.</p>
+                    </span>
+                    <button class="boton" onclick="ToggleEvent('texto1')"></button>
+                </div>
+                <div class="col">
+                    <h3>Antes de adoptar</h3>
+                    <span class="texto" id="texto2">
+                        <p> Debes tener en cuenta el tiempo, las necesidades de tu gatuno y los gastos que se puedan presentar.</p>
+
+                        <p>Compras previas como una pequeña camita o torre, no solo brindarle alimento seco, tener pendiente las visitas al veterinario y agendar desde antes en tu calendario el día de su castración.</p>
+
+                        <p>A medida que pases con tu gatito sabrás que le gusta y que no, que comprar y que no pero ojo... trabaja esas compras compulsivas, Karen. La mayoría de veces preferirá la caja en vez del juguete así que controlate.</p>
+                    </span>
+                    <button class="boton" onclick="ToggleEvent('texto2')"></button>
+                </div>
+                <div class="col">
+                    <h3>Después de adoptar </h3>
+                    <span class="texto" id="texto3">
+                        <p> Rindete, ya eres su esclavo y tu casa no te pertenece. De nada.</p>
+                            
+                    </span>
+                    <button class="boton" onclick="ToggleEvent('texto3')"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385396.6059676668!2d29.01217945!3d41.0053215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2sEstambul%2C%20Provincia%20de%20Estambul%2C%20Turqu%C3%ADa!5e0!3m2!1ses!2sdo!4v1723825856842!5m2!1ses!2sdo"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div id="direccion">
+        <footer>
+            <p>Adopta un gatito y convierte tu casa en su reino.</p>
+        </footer>
+    </div>
+
+<script src="./catito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
